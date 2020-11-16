@@ -1,0 +1,56 @@
+footer.main-footer {
+  background: #8ca5ff; /* Old browsers */
+  background: -moz-linear-gradient(
+    -45deg,
+    #8ca5ff 0%,
+    #5f51fc 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    -45deg,
+    #8ca5ff 0%,
+    #5f51fc 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    135deg,
+    #8ca5ff 0%,
+    #5f51fc 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ca5ff', endColorstr='#5f51fc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+  }
+  ul {
+    display: flex;
+    padding: 0;
+
+    li {
+      &:first-child {
+        margin-left: 0;
+      }
+      margin: 0 0.3rem;
+      a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 0.9rem;
+      }
+    }
+  }
+  p {
+    color: #fff;
+    text-transform: capitalize;
+  }
+}
+
+@media only screen and (max-width: 40em) {
+  footer.main-footer {
+    .container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

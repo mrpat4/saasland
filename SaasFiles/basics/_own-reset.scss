@@ -1,0 +1,22 @@
+ul {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+section {
+  margin-top: 2em;
+}
+
+p {
+  color: $p-color;
+}

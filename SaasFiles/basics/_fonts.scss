@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Open+Sans:wght@300;400;500;600&display=swap");
+
+$sans: "Open Sans", sans-serif;
+$mont: "Montserrat", sans-serif;
+
+p,
+a,
+pre,
+* {
+  font-family: $sans;
+  line-height: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $mont;
+  text-transform: capitalize !important;
+}
